@@ -1,12 +1,67 @@
+body{
+    margin:0%;
+}
+
 header {
     Background-color:black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:2em;
+    color:white;
+    text-align:center;
+   
+   
 }
 
 footer{
     Background-color:black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:2em;
+    color:white;
+    text-align:center;
+    margin-top:3%;
+    padding-top:1%;
+    padding-bottom:2%;
+    margin-bottom:0%;
+}
+		
+		
+		#button:hover {
+			cursor: pointer;
+		}
+        #erg {
+			margin-left:30%;
+		
+        }
+      /*  #erg > img{
+            width:30%; Funktioniert nicht
+            height:auto;
+        }
+        */
+		
+		
+    
+
+a:link{
+    text-decoration: none;
+    color:white;
+}
+ol{
+    list-style:circle ;
+}
+li{
+    font-size:2rem;
+    padding-top:1%;
 }
 
+#flex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ img{
+    width:40%;
+    height:auto;
+}
+img:hover {
+    cursor: pointer;
+}
